@@ -1,1 +1,81 @@
-34142423
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>福州旅游网站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: "微软雅黑", Arial, sans-serif; margin: 0; background: #f5f5f5; }
+        header { background: #2d8cf0; color: #fff; padding: 30px 0; text-align: center; }
+        nav { background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; }
+        nav li { margin: 0 20px; }
+        nav a { color: #2d8cf0; text-decoration: none; font-weight: bold; }
+        main { max-width: 900px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);}
+        h2 { color: #2d8cf0; }
+        .spot-list { display: flex; flex-wrap: wrap; gap: 24px; }
+        .spot { flex: 1 1 250px; background: #f0f8ff; border-radius: 6px; padding: 16px; box-sizing: border-box; }
+        .spot img { width: 100%; border-radius: 4px; }
+        footer { text-align: center; color: #888; padding: 20px 0; margin-top: 40px; }
+        @media (max-width: 600px) {
+            .spot-list { flex-direction: column; }
+            main { padding: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>福州旅游网站</h1>
+        <p>发现福州之美，畅游八闽古城</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#spots">景点推荐</a></li>
+            <li><a href="#food">特色美食</a></li>
+            <li><a href="#tips">旅游贴士</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="spots">
+            <h2>热门景点</h2>
+            <div class="spot-list">
+                <div class="spot">
+                    <img src="https://img1.baidu.com/it/u=1234567890,1234567890&fm=253&fmt=auto&app=138&f=JPEG?w=400&h=300" alt="三坊七巷">
+                    <h3>三坊七巷</h3>
+                    <p>福州历史文化名街，体验古韵风情，感受闽都文化。</p>
+                </div>
+                <div class="spot">
+                    <img src="https://img1.baidu.com/it/u=2345678901,2345678901&fm=253&fmt=auto&app=138&f=JPEG?w=400&h=300" alt="鼓山">
+                    <h3>鼓山</h3>
+                    <p>福州著名风景区，登高望远，欣赏自然美景与古寺。</p>
+                </div>
+                <div class="spot">
+                    <img src="https://img1.baidu.com/it/u=3456789012,3456789012&fm=253&fmt=auto&app=138&f=JPEG?w=400&h=300" alt="西湖公园">
+                    <h3>西湖公园</h3>
+                    <p>市区内的天然氧吧，湖光山色，休闲散步好去处。</p>
+                </div>
+            </div>
+        </section>
+        <section id="food">
+            <h2>特色美食</h2>
+            <ul>
+                <li>佛跳墙</li>
+                <li>鱼丸</li>
+                <li>肉燕</li>
+                <li>荔枝肉</li>
+            </ul>
+        </section>
+        <section id="tips">
+            <h2>旅游贴士</h2>
+            <ul>
+                <li>最佳旅游季节为春秋两季，气候宜人。</li>
+                <li>市内交通便利，可乘坐地铁、公交出行。</li>
+                <li>尊重当地风俗，注意环保。</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 福州旅游网站
+    </footer>
+</body>
+</html>
